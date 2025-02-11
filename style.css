@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+}
+.header{
+    background-color:  #0073e6;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.header-links a{
+    color: white;
+    padding:0px 8px;
+    text-decoration:none;
+    border-radius: 10px;
+}   
+.header-links a:hover{
+    background-color: black;
+}
+.header-links button{
+    background-color:#c76b82;
+    color: white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+.header-links button:hover{
+    background-color: black;
+}    
+.landing-page{
+    background-color: #0073e6;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 0px 0px 50px 50px;
+}
+.landing-page-search input{
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    height: 28px;
+    padding: 0px 10px;
+    border-radius: 20px;
+}
+.landing-page-search button{
+    background-color: #c76b82;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    margin-right: 120px;
+}
+.landing-page-search button:hover{
+    background-color: black;
+}
+.landing-page-image img{
+    border-radius: 20px;
+    width: 400px;
+}
+.trending-games{
+    padding: 20px 20px;
+    background-color: #0073e6;
+}
+.trending-games-header{
+    font-size: 15px;
+    font-weight:italic;
+    color: red;
+
+}
+.trending-games-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.trending-games-item img{
+    border-radius: 20px;
+    width: 200px;
+}
+.trending-games-item button{
+    background-color: #6781b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.trending-games-item button:hover{
+    background-color:darkgray;
+}
+.trending img{
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.trending button{
+    background-color: #6781b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.trending button:hover{
+    background-color:darkgray;
+}
+.trending-games-item{
+    background-color:aliceblue;
+    padding: 30px 150px;
+    border-radius: 50px 50px 50px 50px;
+}
+.trending{
+    background-color:aliceblue;
+    padding:30px 150px;
+    border-radius: 50px 50px 50px 50px;
+}
